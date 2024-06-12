@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="container">
+        <div class="input-section">
+            <input readonly id="answer-update">
+            <input readonly id="operations" >
+         </div>
+        <div class="buttons">
+            <input type="text" class="button gray" value="&#10132" readonly id="clear" > 
+            <input type="text" value="CE" class="button gray" readonly id="cancel">  
+            <input type="text" data-operator="/" value="÷" readonly class="button divide gray"> 
+            <input type="text" value="%" readonly class="button modulus operators"> 
+            <input type="text" value="7" readonly class="button numbers seven"> 
+            <input type="text" value="8" readonly class="button numbers eight"> 
+            <input type="text" value="9" readonly class="button numbers nine"> 
+            <input type="text" value="-" readonly class="button operators minus">
+
+            
+            <input type="text" value="4" readonly class="button numbers four">
+            <input type="text" value="5" readonly class="button numbers five"> 
+            <input type="text" value="6" readonly class="button numbers six"> 
+            <input type="text" value="+" readonly class="button operators plus">
+            
+            <input type="text" value="1" readonly class="button numbers one"> 
+            <input type="text" value="2" readonly class="button numbers two"> 
+            <input type="text" value="3" readonly class="button numbers three"> 
+            <input data-operator="*" value="&#10005" readonly class="button times">
+            
+            
+            <input type="text" value="0" readonly id="zero"class="button numbers"> 
+            <input type="text" value="." class="button numbers" readonly class="button"> 
+            <input type="text" value="=" class="button" readonly id="equalto"> 
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
